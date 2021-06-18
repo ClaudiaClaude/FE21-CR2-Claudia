@@ -191,4 +191,58 @@ a li {
 .main .extra .box .caption p {
   margin: 0.5rem 1rem;
 }
+
+/* end of Main Section */
+/* Footer */
+.footer {
+  margin: 7rem 0 0 0;
+  height: 20rem;
+  background-color: #0E0D0D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+}
+
+.footer .foot1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-flow: column-reverse;
+          flex-flow: column-reverse;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 3rem;
+}
+
+.footer .foot1 ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  gap: 0.5rem;
+  font-size: 1.6rem;
+}
+
+.footer p {
+  font-size: 1.2rem;
+  color: #FFFFFF;
+}
 /*# sourceMappingURL=style.css.map */

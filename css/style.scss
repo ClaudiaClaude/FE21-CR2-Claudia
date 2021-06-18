@@ -186,3 +186,46 @@ a {
 
 }
 
+/* end of Main Section */
+
+/* Footer */
+
+.footer {
+    margin: 7rem 0 0 0;
+    height: 20rem;
+
+    background-color: $bgc-nav;
+
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 3rem;
+
+    .foot1 {
+        display: flex;
+        flex-flow: column-reverse;
+        align-items: center;
+
+        gap: 3rem;
+
+        ul{
+            list-style: none;
+            display: flex;
+            flex-flow: row;
+            gap:0.5rem;
+            
+            font-size: 1.6rem;
+        }
+
+    }
+
+    p {
+        font-size: 1.2rem;
+        color: $txtc-light;
+    }
+
+
+
+}
