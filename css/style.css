@@ -1,6 +1,295 @@
 /*  -- MOBILE FIRST Layout!!! -- */
 /* General Rules */
 /* Media Queries */
+@media (min-width: 1201px) {
+  /* Header */
+  .container {
+    width: 100%;
+    /* end of Header*/
+    /*Nav Bar */
+    /* end of Nav Bar */
+    /* Main content */
+    /* end of Main Section */
+    /* Footer */
+  }
+  .container .header {
+    width: 100%;
+    height: 14rem;
+  }
+  .container .header .headwrap {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: 1fr;
+    -ms-grid-columns: 25% 50%;
+        grid-template: 1fr / 25% 50%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .header .headwrap .logo {
+    width: 100%;
+    height: auto;
+  }
+  .container .header .headwrap #headbanner {
+    visibility: visible;
+    width: 100%;
+    height: auto;
+  }
+  .container .nav ul {
+    width: 100%;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    gap: 1.8rem;
+    margin: 0 0 0 3rem;
+  }
+  .container .date {
+    height: 4rem;
+    visibility: visible;
+  }
+  .container .main {
+    width: 80%;
+    margin: auto;
+  }
+  .container .main .title {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    height: 4rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+  }
+  .container .main #adbanner {
+    height: 100%;
+    visibility: visible;
+  }
+  .container .main .topnews,
+  .container .main .pop {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 3rem;
+  }
+  .container .main .topnews a,
+  .container .main .pop a {
+    height: 22vw;
+  }
+  .container .main .topnews .box,
+  .container .main .pop .box {
+    width: 22vw;
+    height: 22vw;
+  }
+  .container .main .topnews .box .caption p,
+  .container .main .pop .box .caption p {
+    margin: 0.5rem 2rem;
+  }
+  .container .main .extra {
+    width: 100%;
+    margin: 3rem auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .container .main .extra a {
+    height: 24vw;
+  }
+  .container .main .extra .box {
+    width: 26vw;
+    height: 24vw;
+  }
+  .container .main .extra .box .caption p {
+    margin: 0.5rem 2rem;
+  }
+  .container .footer {
+    height: 15rem;
+  }
+  .container .footer .foot1 {
+    width: 90%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container .footer .foot1 .logo img {
+    width: 20vw;
+  }
+  .container .footer .foot1 p {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  /* Header */
+  .container {
+    width: 100%;
+    /* end of Header*/
+    /*Nav Bar */
+    /* end of Nav Bar */
+    /* Main content */
+    /* end of Main Section */
+    /* Footer */
+  }
+  .container .header {
+    width: 100%;
+    height: 10rem;
+    background-color: #5B191A;
+  }
+  .container .header .headwrap {
+    width: 50%;
+    height: 70%;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .container .header .headwrap .logo {
+    width: 70%;
+    height: 70%;
+  }
+  .container .header .headwrap .logo img {
+    width: 100%;
+  }
+  .container .header .headwrap #headbanner {
+    visibility: hidden;
+    height: 0px;
+    width: 0px;
+  }
+  .container .header .headwrap #headbanner img {
+    width: 100%;
+  }
+  .container .nav ul {
+    width: 100%;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    gap: 1.8rem;
+    margin: 0 0 0 3rem;
+  }
+  .container .nav ul li {
+    font-size: 1.5rem;
+    display: inline;
+  }
+  .container .date {
+    height: 4rem;
+    visibility: visible;
+  }
+  .container .main {
+    width: 80%;
+    margin: auto;
+  }
+  .container .main .title {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    height: 4rem;
+    padding-left: 1rem;
+    font-size: 1.5rem;
+  }
+  .container .main #adbanner {
+    height: 100%;
+    visibility: visible;
+  }
+  .container .main .topnews,
+  .container .main .pop,
+  .container .main .extra {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container .main .topnews a,
+  .container .main .pop a,
+  .container .main .extra a {
+    height: 29vw;
+  }
+  .container .main .topnews .box,
+  .container .main .pop .box,
+  .container .main .extra .box {
+    width: 34vw;
+    height: 29vw;
+  }
+  .container .main .topnews .box .caption p,
+  .container .main .pop .box .caption p,
+  .container .main .extra .box .caption p {
+    margin: 0.5rem 2rem;
+  }
+  .container .main .topnews .third,
+  .container .main .pop .third,
+  .container .main .extra .third {
+    display: none;
+  }
+  .container .footer {
+    height: 15rem;
+  }
+  .container .footer .foot1 {
+    width: 90%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row;
+            flex-flow: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .container .footer .foot1 .logo img {
+    width: 20vw;
+  }
+  .container .footer .foot1 p {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+  }
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -58,6 +347,10 @@ a li {
   width: 0px;
 }
 
+.header .headwrap #headbanner img {
+  width: 100%;
+}
+
 /* end of Header*/
 /*Nav Bar */
 .nav {
@@ -88,15 +381,26 @@ a li {
 
 /* end of Nav Bar */
 /* Main content */
+.date {
+  width: 95%;
+  height: 0px;
+  visibility: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 1.3rem;
+  text-align: right;
+}
+
 .main {
   width: 100%;
   height: auto;
-}
-
-.main .date {
-  width: 100%;
-  height: 0px;
-  visibility: hidden;
 }
 
 .main .title {
@@ -118,7 +422,18 @@ a li {
 }
 
 .main #adbanner {
-  display: none;
+  width: 80%;
+  height: 0;
+  margin: 3rem auto 0 auto;
+  visibility: hidden;
+}
+
+.main #adbanner a {
+  width: auto;
+}
+
+.main #adbanner img {
+  width: 100%;
 }
 
 .main .topnews,

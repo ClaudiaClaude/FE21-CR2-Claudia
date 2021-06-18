@@ -1,0 +1,165 @@
+@media (min-width:1201px) {
+
+    /* Header */
+    .container {
+
+        width: 100%;
+        
+        .header {
+            width: 100%;
+            height: 14rem;
+
+            .headwrap {
+                width: 90%;
+                height: 100%;
+                margin: auto;
+
+                display: grid;
+                grid-template: 1fr / 25% 50%;
+                justify-content: space-between;
+                align-items: center;
+
+                .logo {
+                    width: 100%;
+                    height: auto;
+                }
+
+                #headbanner {
+                    visibility: visible;
+                    width: 100%;
+                    height: auto;
+                }
+
+            }
+        }
+
+        /* end of Header*/
+
+        /*Nav Bar */
+
+        .nav {
+
+            ul { 
+                width: 100%;
+                margin: 0;
+
+                display: flex;
+                justify-content: start;
+                gap: 1.8rem;
+                margin: 0 0 0 3rem;
+
+            }
+            
+        }
+
+        /* end of Nav Bar */
+
+        
+        /* Main content */
+
+        .date {
+            height: 4rem;
+            visibility: visible;
+        }
+
+
+        .main {
+            width: 80%;
+            margin: auto;
+            .title {
+                justify-content: flex-start;
+                height: 4rem;
+                padding-left: 1rem;
+                font-size: 1.5rem;
+            }
+
+            #adbanner {
+                height:100%;
+                visibility: visible;
+
+            }
+
+            .topnews,
+            .pop {
+                width: 100%;
+
+                display: flex;
+                flex-flow: row;
+                flex-wrap: wrap;
+
+                gap: 3rem;
+
+                a { height: 22vw;}
+
+                .box{
+                    width: 22vw;
+                    height: 22vw;       
+
+                    .caption {
+                        p {
+                            margin: 0.5rem 2rem;
+                        }
+                    }
+                }
+
+            }
+
+            .extra {
+
+                width: 100%;
+                margin: 3rem auto;
+
+                display: flex;
+                flex-flow: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+
+                a { height: 24vw;}
+
+                .box{
+                    width: 26vw;
+                    height: 24vw;       
+
+                    .caption {
+                        p {
+                            margin: 0.5rem 2rem;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        /* end of Main Section */
+
+        /* Footer */
+
+        .footer {
+            height: 15rem;
+
+            .foot1 {
+                width: 90%;
+                flex-flow: row;
+                justify-content: space-between;
+
+
+                .logo img {
+                    width:20vw;
+                   
+
+                }
+
+                p {
+                    font-size: 1.2rem;
+                    color: $txtc-light;
+                }
+
+            }
+        }
+
+
+    }
+
+}
+
