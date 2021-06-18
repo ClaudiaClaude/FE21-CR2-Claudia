@@ -18,6 +18,7 @@
 
 a {
     text-decoration: none;
+
     li{
         color: $txtc-light;
     }
@@ -59,7 +60,7 @@ a {
 
 .nav {
     width: 100%;
-    height: 3rem;
+    height: 4rem;
     background-color: $bgc-nav;
     color: $txtc-light;
 
@@ -67,7 +68,7 @@ a {
 
     ul {
         
-        width: 80%;
+        width: 85%;
         height:100%;
         margin: auto;
 
@@ -78,7 +79,7 @@ a {
         list-style: none;
 
         li {
-            font-size: 1.4rem;
+            font-size: 1.6rem;
         }
 
     }
@@ -92,6 +93,88 @@ a {
 .main {
 
     width: 100%;
+    height: auto;
+
+    .date {
+        width: 100%;
+        height: 4rem;
+        display: none;
+    }
+
+    .title {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 100%;
+        height: 5rem;
+
+        background-color: $bgc-title;
+
+        color: $txtc-dark;
+        font-size: 2rem;
+    }
+
+
+    .topnews,
+    .pop,
+    .extra {
+
+        width: 100%;
+        margin-top: 3rem;
+
+        display: flex;
+        flex-flow: column;
+
+        justify-content: center;
+        align-items: center;
+
+        .box{
+
+            display: flex;
+            flex-flow: column;
+
+            width: 80vw;
+            height: 75vw;
+
+            margin: 3rem auto;
+        
+            
+    
+            img {
+                width: 100%;
+                object-fit: cover;
+
+            }
+
+            .caption {
+                width: 100%;
+                height: 100%;
+
+                background-color: $bgc-nav;
+
+                display: flex;
+
+                justify-content: center;
+                align-items: center;
+
+
+                font-size: 1.5rem;
+                color: $txtc-light;
+                text-align: center;
+
+                p {
+                    margin: 0.5rem 1rem;
+                }
+
+            }
+    
+        }
+    
+
+    }
+
 
 }
 
