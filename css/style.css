@@ -1,5 +1,6 @@
 /*  -- MOBILE FIRST Layout!!! -- */
 /* General Rules */
+/* Media Queries */
 * {
   margin: 0;
   padding: 0;
@@ -52,7 +53,9 @@ a li {
 }
 
 .header .headwrap #headbanner {
-  display: none;
+  visibility: hidden;
+  height: 0px;
+  width: 0px;
 }
 
 /* end of Header*/
@@ -92,8 +95,8 @@ a li {
 
 .main .date {
   width: 100%;
-  height: 4rem;
-  display: none;
+  height: 0px;
+  visibility: hidden;
 }
 
 .main .title {
