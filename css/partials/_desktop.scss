@@ -1,5 +1,11 @@
 @media (min-width:1201px) {
 
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
     /* Header */
     .container {
 
@@ -40,7 +46,7 @@
         .nav {
 
             ul { 
-                width: 100%;
+                width: 80%;
                 margin: 0;
 
                 display: flex;

@@ -2,6 +2,10 @@
 /* General Rules */
 /* Media Queries */
 @media (min-width: 1201px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
   /* Header */
   .container {
     width: 100%;
@@ -42,7 +46,7 @@
     height: auto;
   }
   .container .nav ul {
-    width: 100%;
+    width: 80%;
     margin: 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -155,6 +159,10 @@
 }
 
 @media (min-width: 481px) and (max-width: 1200px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
   /* Header */
   .container {
     width: 100%;
@@ -201,7 +209,7 @@
     width: 100%;
   }
   .container .nav ul {
-    width: 100%;
+    width: 80%;
     margin: 0;
     display: -webkit-box;
     display: -ms-flexbox;
