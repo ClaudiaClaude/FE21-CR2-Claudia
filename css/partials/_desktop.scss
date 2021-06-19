@@ -48,6 +48,11 @@
                 gap: 1.8rem;
                 margin: 0 0 0 3rem;
 
+                li {
+                    font-size: 1.5rem;
+                }
+                
+
             }
             
         }
@@ -110,8 +115,7 @@
                 margin: 3rem auto;
 
                 display: flex;
-                flex-flow: row;
-                flex-wrap: wrap;
+                flex-flow: row wrap;
                 justify-content: space-around;
 
                 a { height: 24vw;}
@@ -121,6 +125,8 @@
                     height: 24vw;       
 
                     .caption {
+
+                        font-size: 1.4rem;
                         p {
                             margin: 0.5rem 2rem;
                         }
@@ -149,13 +155,19 @@
                    
 
                 }
+                ul {
 
-                p {
-                    font-size: 1.2rem;
-                    color: $txtc-light;
+                    font-size: 1.5rem;
                 }
 
             }
+
+            
+            p {
+                font-size: 1.5rem;
+                color: $txtc-light;
+            }
+
         }
 
 
